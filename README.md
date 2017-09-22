@@ -23,13 +23,8 @@ Or install it yourself as:
 ```bash
 ~$ higem
 Hi gem from version: 0.1.0!
-~$ irb
-irb(main):001:0> require 'higem'
-true
-irb(main):002:0> Higem.hi
+~$ ruby -rhigem -e 'Higem.hi'
 Hi gem from version: 0.1.0!
-nil
-irb(main):003:0>
 ```
 
 ## Development
